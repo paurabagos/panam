@@ -1,0 +1,198 @@
+* {
+    font-family:
+}
+
+.navbar {
+    padding: 10px 0;
+}
+
+.nav-link {
+    color: #1d355d;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: white;
+}
+
+.bg-dark .py-5 {
+    background-image: url(/media/BOGIE%20LUZ.mp4);
+}
+
+.singleline {
+    font-size: 1em;
+}
+
+@media (min-width: 768px) {
+    .singleline {
+        font-size: 1.5em;
+    }
+}
+
+.respiro {
+    padding: 50px 0;
+}
+
+.desde {
+    font-size: 4em;
+}
+
+.relacionados {
+    max-width: 125px;
+}
+
+@media (min-width: 768px) {
+    .relacionados {
+        max-width: 200px;
+    }
+}
+
+
+.relacionados:hover {
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+}
+
+.footer {
+    background-color: rgb(14, 26, 47);
+    color: white;
+}
+
+.navbar-footer {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    text-align: right;
+    font-size: 1.1em;
+}
+
+.navbar-footer:hover {
+    color: gray
+}
+
+.sitios {
+    color: #1D355D;
+    font-weight: bold;
+}
+
+.text-blue {
+    color: #1D355D;
+}
+
+@media (max-width: 768px) {
+    .singlelinesmaller {
+        font-size: 2em;
+    }
+}
+
+section#contact {
+    background-color: #212529;
+    background-image: url("../media/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+section#contact .section-heading {
+    color: #fff;
+}
+
+section#contact form#contactForm .form-group {
+    margin-bottom: 1.5rem;
+}
+
+section#contact form#contactForm .form-group input,
+section#contact form#contactForm .form-group textarea {
+    padding: 1.25rem;
+}
+
+section#contact form#contactForm .form-group input.form-control {
+    height: auto;
+}
+
+section#contact form#contactForm .form-group-textarea {
+    height: auto;
+}
+
+section#contact form#contactForm .form-group-textarea textarea {
+    height: 100%;
+    min-height: 25rem;
+}
+
+section#contact form#contactForm p.help-block {
+    margin: 0;
+}
+
+section#contact form#contactForm .form-control:focus {
+    border-color: #ffc800;
+    box-shadow: none;
+}
+
+section#contact form#contactForm ::-webkit-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+section#contact form#contactForm :-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+section#contact form#contactForm ::-moz-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+section#contact form#contactForm :-ms-input-placeholder {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    color: #ced4da;
+}
+
+@media (max-width: 768px) {
+    .googlemaps {
+        width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    .taller {
+        min-height: 450px;
+    }
+}
+
+.img-lg {
+    height: 100%;
+}
+
+.tablaoutage {
+    background-color: #EEE;
+}
+
+.tablainput select {
+    border: none;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.wave {
+    background: url(../media/wave.svg) center no-repeat;
+    height: 100%;
+}
+
+.logo-talleres {
+    height: 100px;
+    width: auto;
+    text-align: left;
+}
+
+@media (min-width: 992px) {
+    .repairshop {
+        height: 900px;
+    }
+}
